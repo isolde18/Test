@@ -1,19 +1,26 @@
 import turtle
 wn=turtle.Screen()
 tess=turtle.Turtle()
-wn.bgcolor("blue")
+wn.bgcolor("purple")
 tess.shape("turtle")
-tess.color("pink")
-for i in range(4):
-    tess.forward(100)
-    tess.left(90)
+tess.color("green")
+tess.pensize(5)
 
-for x in range(3):
-    tess.forward(80)
-    tess.left(120)
+tess.forward(30)
+tess.left(110)
+tess.forward(200)
 
-for c in range(30):
-    size=20
-    
-    tess.forward(size)
-    tess.left(24)
+for q in range(25):
+    tess.forward(-80)
+    tess.left(-100)
+    tess.color("orangeRed")
+
+
+
+
+
+
+
+
+
+
